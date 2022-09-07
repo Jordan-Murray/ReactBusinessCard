@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+.ProfilePicture {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+.Background{
+    background: #1A1B21;
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.FooterBackground{
+    background: #161619;
+    height: 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    gap:30px;
+}
+.Icons > div{
+    background: #918E9B;
+    border-radius: 5px;
+    padding: 5px;
+    height: 25px
+}
+
+.ProfileText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 25px 0;
+}
+
+.InterestsTitle{
+    width: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    width: 250px;
+    margin: 5px 0 0 0;
+}
+
+.AboutTitle{
+    width: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    width: 250px;
+    margin: 33px 0 0 0;
+}
+
+.AboutText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    color: #DCDCDC;
+    width: 250px;
+    margin: 5px 0 0 0;
+}
+
+.InfoSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.Email{
+    /* white */
+    background: #FFFFFF;
+    /* gray/300 */
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    gap: 8px;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    /* gray/700 */
+    color: #374151;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 115px;
+    }
+
+.LinkedIn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    background: #5093E2;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-style: none;
+    width: 115px;
+}
+
+.ContactButtons{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap:10px;
+    margin: 15px 0 0 0;
+}
+
+.Website {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    margin: 8px 0 0 0;
+    
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.JobTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin: 6px 0 0 0;
+
+    color: #F3BF99;
+    
+}
+
+.ProfileName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px 0 0 0;
+
+    color: #FFFFFF;
+}
